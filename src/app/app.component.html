@@ -1,0 +1,47 @@
+<h3>
+  One Missing
+</h3>
+
+<nav>
+  <a [routerLink]="['/']">
+    Home
+  </a>
+  |
+  <a [routerLink]="['/about']">
+    About
+  </a>
+  |
+  <a [routerLink]="['/github', 'angular']">
+    Github Repos
+  </a>
+  |
+  <a [routerLink]="['/contact']">
+    Contact Us
+  </a>
+</nav>
+
+<p>
+  <ngb-alert [type]="success" [dismissible]="false">
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+  </ngb-alert>
+</p>
+
+<div>
+  <p>
+    <button type="button" class="btn btn-primary btn-success" (click)="reset()">Reset</button>
+  </p>
+
+</div>
+
+
+
+<i class="fa fa-camera-retro">test</i>
+
+<main>
+	<router-outlet></router-outlet>
+</main>
+
+
+<footer>
+  © 2016
+</footer>
