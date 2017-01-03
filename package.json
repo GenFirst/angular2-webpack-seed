@@ -1,6 +1,6 @@
 {
   "name": "angular2-seed",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Seed project for web applications that are using Angular2 framework",
   "scripts": {
     "build": "webpack --progress",
